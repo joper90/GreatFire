@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CE23CE7018E087B9002D8219 /* FireScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23CE6F18E087B9002D8219 /* FireScene.m */; };
+		CE23CE7318E0B379002D8219 /* pStars.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE23CE7118E0B379002D8219 /* pStars.plist */; };
+		CE23CE7418E0B379002D8219 /* pStarTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = CE23CE7218E0B379002D8219 /* pStarTexture.png */; };
 		CE31AE0618DF0FF9000B1BCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE31AE0518DF0FF9000B1BCE /* QuartzCore.framework */; };
 		CE31AE0818DF0FF9000B1BCE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE31AE0718DF0FF9000B1BCE /* OpenGLES.framework */; };
 		CE31AE0A18DF0FF9000B1BCE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE31AE0918DF0FF9000B1BCE /* OpenAL.framework */; };
@@ -239,6 +241,8 @@
 /* Begin PBXFileReference section */
 		CE23CE6E18E087B9002D8219 /* FireScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireScene.h; sourceTree = "<group>"; };
 		CE23CE6F18E087B9002D8219 /* FireScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireScene.m; sourceTree = "<group>"; };
+		CE23CE7118E0B379002D8219 /* pStars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pStars.plist; sourceTree = "<group>"; };
+		CE23CE7218E0B379002D8219 /* pStarTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pStarTexture.png; sourceTree = "<group>"; };
 		CE31AE0218DF0FF9000B1BCE /* GreatFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31AE0518DF0FF9000B1BCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE31AE0718DF0FF9000B1BCE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1598,6 +1602,8 @@
 		CE78C0F718E0526A00CC1A53 /* particles */ = {
 			isa = PBXGroup;
 			children = (
+				CE23CE7118E0B379002D8219 /* pStars.plist */,
+				CE23CE7218E0B379002D8219 /* pStarTexture.png */,
 				CE78C0F818E052A900CC1A53 /* pSun.plist */,
 				CE78C0F918E052A900CC1A53 /* pSunTexture.png */,
 				CE78C0F518E0441100CC1A53 /* partFireTexture.png */,
@@ -1680,6 +1686,7 @@
 				CEC644B218DF881200DEBF49 /* firePart.plist in Resources */,
 				CE31AE2B18DF0FF9000B1BCE /* Icon@2x.png in Resources */,
 				CE31AE3D18DF0FF9000B1BCE /* Icon-Small@2x.png in Resources */,
+				CE23CE7418E0B379002D8219 /* pStarTexture.png in Resources */,
 				CE31AE2F18DF0FF9000B1BCE /* Icon-72@2x.png in Resources */,
 				CE31AE2018DF0FF9000B1BCE /* Default.png in Resources */,
 				CEC644AE18DF7F6C00DEBF49 /* FIRESTAR.TTF in Resources */,
@@ -1698,6 +1705,7 @@
 				CE4DBFA318DF8F2F0074609F /* nextButton.png in Resources */,
 				CE31AE2D18DF0FF9000B1BCE /* Icon-72.png in Resources */,
 				CE31AF7B18DF0FFA000B1BCE /* LICENSE_cocos2d.txt in Resources */,
+				CE23CE7318E0B379002D8219 /* pStars.plist in Resources */,
 				CE31AE2418DF0FF9000B1BCE /* Default-568h@2x.png in Resources */,
 				CE31AE4418DF0FF9000B1BCE /* iTunesArtwork in Resources */,
 				CE31AE3F18DF0FF9000B1BCE /* Icon-Spotlight-iOS7.png in Resources */,

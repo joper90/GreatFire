@@ -35,9 +35,13 @@
     //Add the cityscape
     CCSprite  *cityScape = [CCSprite spriteWithImageNamed:@"cityScape.png"];
     cityScape.position = ccp(512,200);
+    cityScape.zOrder = 100;
     [self addChild:cityScape];
     
-    //Add the moon
+    //Add the stars
+    CCParticleSystem* partSystem = [CCParticleSystem particleWithFile:@"pStars.plist"];
+    partSystem.position = ccp(512,600);
+    [self addChild:partSystem];
 
     
     //Add next and home buttons
