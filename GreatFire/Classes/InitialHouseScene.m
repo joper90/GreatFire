@@ -1,0 +1,13 @@
+//
+//  InitialHouseScene.m
+//  GreatFire
+//
+//  Created by Joe on 23/03/2014.
+//  Copyright (c) 2014 com.funkVoodoo. All rights reserved.
+//
+
+#import "InitialHouseScene.h"
+
+@implementation InitialHouseScene
+
+@end
